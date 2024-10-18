@@ -1,0 +1,51 @@
+body {
+    background-color: #E8F5E9; /* Fondo verde claro */
+    color: #2E7D32; /* Texto verde oscuro */
+  }
+  
+  header {
+    background-color: #388E3C !important; /* Verde más fuerte para el encabezado */
+    color: #FFFFFF !important; /* Texto blanco en el encabezado */
+    text-align: center; /* Centra el texto en el encabezado */
+  }
+  
+  .form-label {
+    color: #FFFFFF !important; /* Etiquetas blancas */
+  }
+  
+  #search-button, #reset-search, #pagination button {
+    background-color: #66BB6A !important; /* Verde suave */
+    color: white !important;
+    border: none !important;
+  }
+  
+  #search-button:hover, #reset-search:hover, #pagination button:hover {
+    background-color: #81C784 !important; /* Hover verde más claro */
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50 !important; /* Botones "Leer más" en verde */
+    border: none !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #66BB6A !important; /* Hover más claro para los botones de "Leer más" */
+  }
+  
+  .card {
+    border: 1px solid #388E3C; /* Borde verde para las tarjetas */
+  }
+  
+  .card-title {
+    color: #2E7D32; /* Títulos de las noticias en verde oscuro */
+  }
+  
+  .card-body {
+    background-color: #C8E6C9; /* Fondo verde claro para el cuerpo de la tarjeta */
+  }
+  
+  .news-hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
