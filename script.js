@@ -68,6 +68,7 @@ async function fetchNews() {
     newsContainer.classList.add('news-hidden');  // Añade clase para ocultar con animación
     const response = await fetch(url);
     const data = await response.json();
+    console.log(data);
     totalResults = data.totalResults;
     displayNews(data.articles);
     updatePagination();
